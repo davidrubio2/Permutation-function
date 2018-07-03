@@ -8,8 +8,10 @@ namespace Permutation_function
     {
         static void Main(string[] args)
         {    
-            
-            Console.WriteLine("Hello World!");
+           var list = new List<string> { "13", "1", "10", "4", "5", "9" };
+            var result = GetPermutations(list, 5);
+            int numeroObjetivo = 14;
+            int numeroVariable = 0;
         }
       static IEnumerable<IEnumerable<T>> GetPermutations<T>(IEnumerable<T> items, int count)
         {
