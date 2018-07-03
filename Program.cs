@@ -8,9 +8,13 @@ namespace Permutation_function
     {
         static void Main(string[] args)
         {
-            var list = new List<string> { "13", "1", "10", "4", "5", "9" };
-            var result = GetPermutations(list, 5);
-            int numeroObjetivo = 14;
+            Permutatuins(new List<int> {4, 5, 9, 13, 1, 10} ,2,14);
+        }
+        static void Permutatuins(List<int> numbers, int operandos, int objetivo)
+        {
+            var list = numbers.ConvertAll<string>(delegate(int i) { return i.ToString(); });
+            var result = GetPermutations(list, operandos);
+            int numeroObjetivo = objetivo;
             int numeroVariable = 0;
             string listadelnumero = "";
             string numero = "";
