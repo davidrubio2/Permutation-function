@@ -1,0 +1,11 @@
+C:\Users\ALIEN\Desktop\funcion2\Permutation-function\bin\Debug\netcoreapp2.1\Permutation-function.deps.json
+C:\Users\ALIEN\Desktop\funcion2\Permutation-function\bin\Debug\netcoreapp2.1\Permutation-function.runtimeconfig.json
+C:\Users\ALIEN\Desktop\funcion2\Permutation-function\bin\Debug\netcoreapp2.1\Permutation-function.runtimeconfig.dev.json
+C:\Users\ALIEN\Desktop\funcion2\Permutation-function\bin\Debug\netcoreapp2.1\Permutation-function.dll
+C:\Users\ALIEN\Desktop\funcion2\Permutation-function\bin\Debug\netcoreapp2.1\Permutation-function.pdb
+C:\Users\ALIEN\Desktop\funcion2\Permutation-function\obj\Debug\netcoreapp2.1\Permutation-function.csprojAssemblyReference.cache
+C:\Users\ALIEN\Desktop\funcion2\Permutation-function\obj\Debug\netcoreapp2.1\Permutation-function.csproj.CoreCompileInputs.cache
+C:\Users\ALIEN\Desktop\funcion2\Permutation-function\obj\Debug\netcoreapp2.1\Permutation-function.AssemblyInfoInputs.cache
+C:\Users\ALIEN\Desktop\funcion2\Permutation-function\obj\Debug\netcoreapp2.1\Permutation-function.AssemblyInfo.cs
+C:\Users\ALIEN\Desktop\funcion2\Permutation-function\obj\Debug\netcoreapp2.1\Permutation-function.dll
+C:\Users\ALIEN\Desktop\funcion2\Permutation-function\obj\Debug\netcoreapp2.1\Permutation-function.pdb
