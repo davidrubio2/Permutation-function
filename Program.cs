@@ -12,6 +12,17 @@ namespace Permutation_function
             var result = GetPermutations(list, 5);
             int numeroObjetivo = 14;
             int numeroVariable = 0;
+             string listadelnumero = "";
+            string numero = "";
+            foreach (var perm in result)
+            {
+                foreach (var c in perm)
+                {
+                    
+                
+                }
+            
+            }
         }
       static IEnumerable<IEnumerable<T>> GetPermutations<T>(IEnumerable<T> items, int count)
         {
