@@ -7,24 +7,29 @@ namespace Permutation_function
     class Program
     {
         static void Main(string[] args)
-        {    
-           var list = new List<string> { "13", "1", "10", "4", "5", "9" };
+        {
+            var list = new List<string> { "13", "1", "10", "4", "5", "9" };
             var result = GetPermutations(list, 5);
             int numeroObjetivo = 14;
             int numeroVariable = 0;
-             string listadelnumero = "";
+            string listadelnumero = "";
             string numero = "";
             foreach (var perm in result)
             {
                 foreach (var c in perm)
                 {
-                    
-                
+                    numero = numero + " + " + c;
+                    numeroVariable = Convert.ToInt16(c) + numeroVariable;
+                    listadelnumero = listadelnumero + " , " + c;
                 }
-            
+                if (numeroVariable == numeroObjetivo)
+                {
+
+                }
+
             }
         }
-      static IEnumerable<IEnumerable<T>> GetPermutations<T>(IEnumerable<T> items, int count)
+        static IEnumerable<IEnumerable<T>> GetPermutations<T>(IEnumerable<T> items, int count)
         {
             int i = 0;
             foreach (var item in items)
