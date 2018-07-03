@@ -24,7 +24,11 @@ namespace Permutation_function
                 }
                 if (numeroVariable == numeroObjetivo)
                 {
-
+                    numero = numero.Substring(3, numero.Length - 3);
+                    listadelnumero = listadelnumero.Substring(3, listadelnumero.Length - 3);
+                    listadelnumero = listadelnumero + " ( " + numero + " = " + numeroVariable + " )";
+                    Console.Write(listadelnumero);
+                    Console.WriteLine();
                 }
 
             }
