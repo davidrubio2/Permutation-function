@@ -30,7 +30,9 @@ namespace Permutation_function
                     Console.Write(listadelnumero);
                     Console.WriteLine();
                 }
-
+                listadelnumero = "";
+                numero = "";
+                numeroVariable = 0;
             }
         }
         static IEnumerable<IEnumerable<T>> GetPermutations<T>(IEnumerable<T> items, int count)
